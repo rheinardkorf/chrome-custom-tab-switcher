@@ -1,0 +1,72 @@
+{
+	"name": "Custom Tab Switcher",
+	"description": "Set custom shortuts to switch to specific tabs.",
+	"version": "0.1",
+	"manifest_version": 2,
+	"permissions": [
+		"<all_urls>",
+		"tabs"
+	],
+	"background":{
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+
+	"commands": {
+		"tab-1": {
+			"description": "Tab 1"
+		},
+		"tab-2": {
+			"description": "Tab 2"
+		},
+		"tab-3": {
+			"description": "Tab 3"
+		},
+		"tab-4": {
+			"description": "Tab 4"
+		},
+		"tab-5": {
+			"description": "Tab 5"
+		},
+		"tab-6": {
+			"description": "Tab 6"
+		},
+		"tab-7": {
+			"description": "Tab 7"
+		},
+		"tab-8": {
+			"description": "Tab 8"
+		},
+		"tab-9": {
+			"description": "Last Tab"
+		},
+		"pin-1": {
+			"description": "Pin 1"
+		},
+		"pin-2": {
+			"description": "Pin 2"
+		},
+		"pin-3": {
+			"description": "Pin 3"
+		},
+		"pin-4": {
+			"description": "Pin 4"
+		},
+		"pin-5": {
+			"description": "Pin 5"
+		},
+		"pin-6": {
+			"description": "Pin 6"
+		},
+		"pin-7": {
+			"description": "Pin 7"
+		},
+		"pin-8": {
+			"description": "Pin 8"
+		},
+		"pin-9": {
+			"description": "Last Pin"
+		}
+
+	}
+}
